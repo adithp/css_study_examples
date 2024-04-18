@@ -1,0 +1,202 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #160647;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #160647;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Circular-Std-Regular", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1100px;
+}
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+header {
+	height: 100px;
+}
+header section.wrapper {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	align-items: center;
+	width: 100%;
+}
+header h1 {
+	width: 85px;
+}
+header h1 a {
+	width: 100%;
+	display: block;
+}
+header h1 a img {
+	width: 100%;
+	display: block;
+}
+header nav.middle {
+
+}
+header nav.right {
+
+}
+header ul {
+	display: flex;
+	justify-content: flex-end;
+}
+header ul li {
+	margin-right: 50px;
+}
+header ul li:last-child {
+	margin-right: 0;
+}
+header ul li a {
+	font-size: 20px;
+	font-weight: 500;
+	padding-bottom: 3px;
+}
+header nav.middle ul li a:hover{
+	border-bottom:2px solid #160647;
+}
+header ul li a.button {
+	padding: 16px 24px;
+	background-color: #160647;
+	color: #fff;
+	border-radius: 8px;
+}
+#spotlight {
+	padding: 180px 0;
+	background-image: url(../images/strip.png);
+	background-repeat: no-repeat;
+	background-position: 100% 63%;
+}
+#spotlight section.wrapper {
+
+}
+#spotlight div.top {
+	text-align: center;
+}
+#spotlight div.top h1 {
+	font-size: 82px;
+	font-weight: 700;
+	font-family: 'Circular-Std-Bold';
+	max-width: 980px;
+	margin: 0 auto;
+	margin-bottom: 32px;
+	color: #160647;
+}
+#spotlight div.top p {
+	color: #160647;
+	font-size: 26px;
+	font-weight: 500;
+}
+#spotlight div.bottom {
+	padding-top: 120px;
+}
+#spotlight div.bottom ul {
+	display: flex;
+	justify-content: space-between;
+}
+#spotlight div.bottom ul li {
+	margin-right: 44px;
+}
+#spotlight div.bottom ul li:last-child {
+	margin-right: 0;
+}
+#spotlight div.bottom ul li div.image-container {
+	width: 600px;
+	margin-bottom: 44px;
+}
+#spotlight div.bottom ul li div.image-container img {
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	border-radius: 8px;
+	width: 100%;
+	display: block;
+}
+#spotlight div.bottom ul li div.content {
+
+}
+#spotlight div.bottom ul li div.content h3 {
+	font-size: 47px;
+	font-weight: 700;
+	font-family: 'Circular-Std-Bold';
+	color: #160647;
+	margin-bottom: 24px;
+}
+#spotlight div.bottom ul li div.content p {
+	font-size: 26px;
+	color: 160647;
+	font-family: 'Circular-Std-Bold';
+}
+
+
+
+
+
+
+
+
+
