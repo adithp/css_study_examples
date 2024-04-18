@@ -1,0 +1,14 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	background: green;
+	height: 500px;
+	flex-wrap: wrap;
+}
+.item {
+	height: 100px;
+	background: blue;
+	width: 200px;
+	border: 1px solid red;
+	}

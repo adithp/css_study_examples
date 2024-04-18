@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.grid{
+	display: grid;
+	grid-template-rows: 100px 1fr;
+	height: 100vh;
+
+
+	}
+header {
+	background: #e5e5e5;
+	grid-column: 1/12;
+	align-self: center;
+	justify-self: center;
+}
+.main {
+	background: #afefff;
+	grid-column: 1/3;
+}
+.new {
+	background: #fff;
+	grid-column: 3/11;
+}
+.gta {
+	background: #e0fffe;
+	grid-column: 11/12;
+}
