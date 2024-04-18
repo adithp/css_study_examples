@@ -1,0 +1,29 @@
+div h1 {
+	color:#00ffff;
+}
+div h2 {
+	color: rgb(128,0,0);
+}
+.one {
+	color: rgba(0, 0,255,.8);
+}
+.two {
+	height:500px;
+	background-image: url("image.jpg");
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+p {
+	font-size: 26px;
+	font-weight: bold;
+	font-style: italic;
+	opacity: 0.8;
+}
+ 
+ 
+/*
+
+background: url(image.jpg) no-repeat center center;
+	background-size: cover;
+*/

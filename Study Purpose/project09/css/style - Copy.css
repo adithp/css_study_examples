@@ -1,0 +1,19 @@
+
+@media (prefers-color-scheme:dark) {
+	section{
+		background:#000;
+		color:#fff;
+	}
+}
+section	> p {
+	color:red;
+}
+section > div > p {
+	color:green;
+}
+a:hover {
+	color:skyblue;
+}
+a:active {
+	color:green;
+}

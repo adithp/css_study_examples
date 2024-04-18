@@ -1,0 +1,35 @@
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+li.item {
+	float: left;
+}
+ li {
+margin-right: 20px;
+}
+body {
+	font-family: 'sedgwick_ave_displayregular';
+}
+ul {
+	list-style: none;
+}
+
+@font-face {
+    font-family: 'sedgwick_ave_displayregular';
+    src: url('../font/Sedgwick/sedgwickavedisplay-regular-webfont.woff2') format('woff2'),
+         url('sedgwickavedisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+div.one {
+	height: 100px;
+}
+div.two {
+	padding-left: 40px;
+	font-size: 32px;
+}
+a.test {
+	color: skyblue;
+}

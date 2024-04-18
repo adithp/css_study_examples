@@ -1,0 +1,17 @@
+ul 	{
+	float: left;
+	list-style: none;
+	width: 100%;
+}
+li {
+	float:left;
+	width: 30%;
+	margin-right: 5%;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+ul li:last-child {
+	margin-right: 0%;
+}

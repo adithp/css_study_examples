@@ -1,0 +1,8 @@
+
+* {
+	margin: 0;
+}
+div.one {
+	background: radial-gradient(red 10%,blue 20%,green 70%);
+	height: 100vh;
+}

@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+}
+ul {
+	width: 100%;
+	list-style: none;
+	float: left;
+}
+ul li {
+	width: 32%;
+	margin-right: 2%;
+	margin-bottom: 3%;
+	float: left;
+}
+ul li img {
+	display: block;
+	width: 100%;
+	height: 500px;
+}
+ul li:nth-child(3n) {
+	margin-right:0 ;
+}

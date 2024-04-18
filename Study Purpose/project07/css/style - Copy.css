@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+}
+div.one {
+	background-color: green;
+	height: 50vh;
+	}
+div.two{
+	background-color: red;
+	height: 50vh;
+}
+div.two h1 {
+	height: 80px;
+	background-color: blue;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	bottom: 45vh;
+}
